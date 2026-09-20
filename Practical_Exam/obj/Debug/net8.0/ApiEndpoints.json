@@ -195,6 +195,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Practical_Exam.Controllers.TeachersController",
+    "Method": "GetAllTeachers",
+    "RelativePath": "api/Teachers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Practical_Exam.Controllers.TeachersController",
+    "Method": "CreateTeacher",
+    "RelativePath": "api/Teachers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Teacherdto",
+        "Type": "Practical_Exam.Dtos.CreateTeacherDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Practical_Exam.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

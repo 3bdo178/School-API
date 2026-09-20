@@ -138,3 +138,4 @@ C:\Users\yassen.ashraf\source\repos\Practical_Exam\Practical_Exam\obj\Debug\net8
 C:\Users\yassen.ashraf\source\repos\Practical_Exam\Practical_Exam\obj\Debug\net8.0\Practical_Exam.pdb
 C:\Users\yassen.ashraf\source\repos\Practical_Exam\Practical_Exam\obj\Debug\net8.0\Practical_Exam.genruntimeconfig.cache
 C:\Users\yassen.ashraf\source\repos\Practical_Exam\Practical_Exam\obj\Debug\net8.0\ref\Practical_Exam.dll
+C:\Users\yassen.ashraf\source\repos\Practical_Exam\Practical_Exam\obj\Debug\net8.0\Practical_Exam.sourcelink.json

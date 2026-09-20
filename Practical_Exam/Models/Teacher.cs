@@ -17,6 +17,6 @@ namespace Practical_Exam.Models
         public decimal Salary { get; set; }
         public int DepartmentId { get; set; }
         public Department Department { get; set; }
-        public ICollection<Subject> Subjects { get; set; } = new List<Subject>();
+        public ICollection<Subject> Subjects { get; set; }
     }
 }

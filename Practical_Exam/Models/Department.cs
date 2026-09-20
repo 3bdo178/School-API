@@ -9,6 +9,6 @@ namespace Practical_Exam.Models
         public string Name { get; set; }
         [MaxLength(500)]
         public string? Description { get; set; }
-        public ICollection<Teacherdto> Teachers { get; set; } = new List<Teacherdto>();
+        public ICollection<Teacher> Teachers { get; set; } = new List<Teacher>();
     }
 }

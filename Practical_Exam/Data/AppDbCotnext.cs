@@ -9,7 +9,7 @@ namespace Practical_Exam.Data
         public DbSet<Student> Students { get; set; }
         public DbSet<Subject> Subjects { get; set; }
         public DbSet<Department> Departments { get; set; }
-        public DbSet<Teacherdto> Teachers { get; set; }
+        public DbSet<Teacher> Teachers { get; set; }
         public DbSet<ClassRoom> classRooms { get; set; }
         public DbSet<Enrollment> Enrollments { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -20,12 +20,12 @@ namespace Practical_Exam.Data
        
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Teacherdto>().HasOne(t => t.Department).WithMany(d => d.Teachers).HasForeignKey(t => t.DepartmentId).OnDelete(DeleteBehavior.Restrict);
-            modelBuilder.Entity<Teacherdto>().HasMany(t => t.Subjects).WithOne(s => s.Teacher).HasForeignKey(s => s.TeacherId);
+            modelBuilder.Entity<Teacher>().HasOne(t => t.Department).WithMany(d => d.Teachers).HasForeignKey(t => t.DepartmentId).OnDelete(DeleteBehavior.Restrict);
+            modelBuilder.Entity<Teacher>().HasMany(t => t.Subjects).WithOne(s => s.Teacher).HasForeignKey(s => s.TeacherId);
             modelBuilder.Entity<Subject>().HasMany(s => s.Enrollments).WithOne(e => e.Subject).HasForeignKey(e => e.SubjectId).OnDelete(DeleteBehavior.Cascade);
             modelBuilder.Entity<Enrollment>().HasOne(e=>e.Student).WithMany(s=>s.Enrollments).HasForeignKey(e => e.StudentId).OnDelete(DeleteBehavior.Cascade);
             modelBuilder.Entity<Student>().HasOne(s => s.Classroom).WithMany(c => c.Students).HasForeignKey(s => s.ClassroomId);
-            modelBuilder.Entity<Teacherdto>().HasIndex(t=>t.Email).IsUnique();
+            modelBuilder.Entity<Teacher>().HasIndex(t=>t.Email).IsUnique();
             modelBuilder.Entity<Student>().HasIndex(s => s.Email).IsUnique();
             modelBuilder.Entity<Enrollment>().Property(e => e.Grade).HasPrecision(18, 2);
             modelBuilder.Entity<Department>().HasIndex(d => d.Name).IsUnique();

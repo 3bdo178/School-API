@@ -13,7 +13,7 @@ namespace Practical_Exam.Models
         [Required, Range(1,100)]
         public int MaxGrade { get; set; }
         public int TeacherId { get; set; }
-        public Teacherdto Teacher { get; set; } = new Teacherdto();
+        public Teacher Teacher { get; set; } = new Teacher();
         public ICollection<Enrollment> Enrollments { get; set; } = new List<Enrollment>();
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Practical_Exam.Data;
 using Practical_Exam.Dtos;
 using Practical_Exam.Models;
@@ -18,7 +19,7 @@ namespace Practical_Exam.Controllers
         [HttpGet]
         public IActionResult GetAllTeachers()
         {
-            var Teachers = _context.Teachers.ToList();
+            var Teachers = _context.Teachers.Include(t=>t.Department).ToList();
             if(Teachers == null || Teachers.Count == 0)
             {
                 return NotFound("No Teachers Found");
@@ -41,9 +42,24 @@ namespace Practical_Exam.Controllers
             return Ok(Teachersdto);
         }
         [HttpPost]
-        public IActionResult CreateTeacher()
+        public IActionResult CreateTeacher(CreateTeacherDto Teacherdto)
         {
-
+            if(Teacherdto == null|| !ModelState.IsValid)
+            {
+                return BadRequest("Please enter a valid teacher.");
+            }
+            var teacher = new Teacher
+            {
+                FirstName = Teacherdto.FirstName,
+                LastName = Teacherdto.LastName,
+                Email = Teacherdto.Email,
+                PhoneNumber = Teacherdto.PhoneNumber,
+                DepartmentId = Teacherdto.DepartmentId,
+                Salary = Teacherdto.Salary
+            };
+            _context.Teachers.Add(teacher);
+            _context.SaveChanges();
+            return Created();
         }
     }
 }
