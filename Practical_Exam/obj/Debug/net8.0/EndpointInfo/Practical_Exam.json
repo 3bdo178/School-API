@@ -456,17 +456,13 @@
       "CreateTeacherDto": {
         "required": [
           "email",
-          "lastName",
+          "fullName",
           "salary"
         ],
         "type": "object",
         "properties": {
-          "firstName": {
-            "type": "string",
-            "nullable": true
-          },
-          "lastName": {
-            "maxLength": 50,
+          "fullName": {
+            "maxLength": 100,
             "minLength": 1,
             "type": "string"
           },

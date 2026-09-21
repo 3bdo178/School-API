@@ -48,10 +48,24 @@ namespace Practical_Exam.Controllers
             {
                 return BadRequest("Please enter a valid teacher.");
             }
+            int count = 0;
+            foreach(var charcter in Teacherdto.FullName)
+            {
+                if(charcter!=' ')
+                    count++;
+                else
+                {
+                    break;
+                }
+            }
+            if (count == Teacherdto.FullName.Length)
+                return BadRequest();
+            string FirstName = Teacherdto.FullName.Substring(0, count);
+            string LastName = Teacherdto.FullName.Substring(++count);
             var teacher = new Teacher
             {
-                FirstName = Teacherdto.FirstName,
-                LastName = Teacherdto.LastName,
+                FirstName = FirstName,
+                LastName = LastName,
                 Email = Teacherdto.Email,
                 PhoneNumber = Teacherdto.PhoneNumber,
                 DepartmentId = Teacherdto.DepartmentId,

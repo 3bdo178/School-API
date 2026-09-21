@@ -1,12 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace Practical_Exam.Dtos
 {
     public class CreateTeacherDto
     {
-        public string FirstName { get; set; }
-        [Required, MaxLength(50)]
-        public string LastName { get; set; }
+        [Required, MaxLength(100)]
+       public string FullName { get; set; }
         [Required, EmailAddress, MaxLength(150)]
         public string Email { get; set; }
         [MaxLength(20), Phone]
