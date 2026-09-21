@@ -221,6 +221,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Practical_Exam.Controllers.TeachersController",
+    "Method": "GetTeacherById",
+    "RelativePath": "api/Teachers/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Practical_Exam.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

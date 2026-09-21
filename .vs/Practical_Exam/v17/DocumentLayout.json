@@ -3,28 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|c:\\users\\yassen.ashraf\\source\\repos\\practical_exam\\practical_exam\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|solutionrelative:practical_exam\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|c:\\users\\yassen.ashraf\\source\\repos\\practical_exam\\practical_exam\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|solutionrelative:practical_exam\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|c:\\users\\yassen.ashraf\\source\\repos\\practical_exam\\practical_exam\\profiles\\teacherprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|solutionrelative:practical_exam\\profiles\\teacherprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|c:\\users\\yassen.ashraf\\source\\repos\\practical_exam\\practical_exam\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|solutionrelative:practical_exam\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|c:\\users\\yassen.ashraf\\source\\repos\\practical_exam\\practical_exam\\dtos\\teacherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|solutionrelative:practical_exam\\dtos\\teacherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|c:\\users\\yassen.ashraf\\source\\repos\\practical_exam\\practical_exam\\dtos\\updateteacherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|solutionrelative:practical_exam\\dtos\\updateteacherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|c:\\users\\yassen.ashraf\\source\\repos\\practical_exam\\practical_exam\\dtos\\createteacherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|solutionrelative:practical_exam\\dtos\\createteacherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|c:\\users\\yassen.ashraf\\source\\repos\\practical_exam\\practical_exam\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|solutionrelative:practical_exam\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|c:\\users\\yassen.ashraf\\source\\repos\\practical_exam\\practical_exam\\dtos\\createteacherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|solutionrelative:practical_exam\\dtos\\createteacherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|c:\\users\\yassen.ashraf\\source\\repos\\practical_exam\\practical_exam\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|solutionrelative:practical_exam\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|c:\\users\\yassen.ashraf\\source\\repos\\practical_exam\\practical_exam\\dtos\\teacherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|solutionrelative:practical_exam\\dtos\\teacherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|c:\\users\\yassen.ashraf\\source\\repos\\practical_exam\\practical_exam\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|solutionrelative:practical_exam\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|c:\\users\\yassen.ashraf\\source\\repos\\practical_exam\\practical_exam\\dtos\\createdepartmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|c:\\users\\yassen.ashraf\\source\\repos\\practical_exam\\practical_exam\\data\\appdbcotnext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|solutionrelative:practical_exam\\data\\appdbcotnext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|c:\\users\\yassen.ashraf\\source\\repos\\practical_exam\\practical_exam\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|solutionrelative:practical_exam\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E89C1397-7A94-410F-B731-9BDD5756C857}|Practical_Exam\\Practical_Exam.csproj|c:\\users\\yassen.ashraf\\source\\repos\\practical_exam\\practical_exam\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,43 +90,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CreateTeacherDto.cs",
-              "DocumentMoniker": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Dtos\\CreateTeacherDto.cs",
-              "RelativeDocumentMoniker": "Practical_Exam\\Dtos\\CreateTeacherDto.cs",
-              "ToolTip": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Dtos\\CreateTeacherDto.cs",
-              "RelativeToolTip": "Practical_Exam\\Dtos\\CreateTeacherDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T11:06:32.639Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DepartmentDto.cs",
-              "DocumentMoniker": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Dtos\\DepartmentDto.cs",
-              "RelativeDocumentMoniker": "Practical_Exam\\Dtos\\DepartmentDto.cs",
-              "ToolTip": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Dtos\\DepartmentDto.cs",
-              "RelativeToolTip": "Practical_Exam\\Dtos\\DepartmentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T09:47:56.332Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TeacherDto.cs",
-              "DocumentMoniker": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Dtos\\TeacherDto.cs",
-              "RelativeDocumentMoniker": "Practical_Exam\\Dtos\\TeacherDto.cs",
-              "ToolTip": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Dtos\\TeacherDto.cs",
-              "RelativeToolTip": "Practical_Exam\\Dtos\\TeacherDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Title": "UpdateTeacherDto.cs",
+              "DocumentMoniker": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Dtos\\UpdateTeacherDto.cs",
+              "RelativeDocumentMoniker": "Practical_Exam\\Dtos\\UpdateTeacherDto.cs",
+              "ToolTip": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Dtos\\UpdateTeacherDto.cs",
+              "RelativeToolTip": "Practical_Exam\\Dtos\\UpdateTeacherDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T10:29:55.743Z"
+              "WhenOpened": "2026-09-21T10:57:24.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TeacherProfile.cs",
+              "DocumentMoniker": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Profiles\\TeacherProfile.cs",
+              "RelativeDocumentMoniker": "Practical_Exam\\Profiles\\TeacherProfile.cs",
+              "ToolTip": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Profiles\\TeacherProfile.cs",
+              "RelativeToolTip": "Practical_Exam\\Profiles\\TeacherProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T09:57:30.265Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -130,36 +128,89 @@
               "RelativeToolTip": "Practical_Exam\\Controllers\\StudentsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-16T11:00:27.488Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DepartmentsController.cs",
-              "DocumentMoniker": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Controllers\\DepartmentsController.cs",
-              "RelativeDocumentMoniker": "Practical_Exam\\Controllers\\DepartmentsController.cs",
-              "ToolTip": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Controllers\\DepartmentsController.cs",
-              "RelativeToolTip": "Practical_Exam\\Controllers\\DepartmentsController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAIwEYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T09:46:51.637Z",
+              "WhenOpened": "2026-09-16T11:00:27.488Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "DepartmentDto.cs",
+              "DocumentMoniker": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Dtos\\DepartmentDto.cs",
+              "RelativeDocumentMoniker": "Practical_Exam\\Dtos\\DepartmentDto.cs",
+              "ToolTip": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Dtos\\DepartmentDto.cs",
+              "RelativeToolTip": "Practical_Exam\\Dtos\\DepartmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T09:47:56.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateTeacherDto.cs",
+              "DocumentMoniker": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Dtos\\CreateTeacherDto.cs",
+              "RelativeDocumentMoniker": "Practical_Exam\\Dtos\\CreateTeacherDto.cs",
+              "ToolTip": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Dtos\\CreateTeacherDto.cs",
+              "RelativeToolTip": "Practical_Exam\\Dtos\\CreateTeacherDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T11:06:32.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "TeachersController.cs",
               "DocumentMoniker": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Controllers\\TeachersController.cs",
               "RelativeDocumentMoniker": "Practical_Exam\\Controllers\\TeachersController.cs",
               "ToolTip": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Controllers\\TeachersController.cs",
               "RelativeToolTip": "Practical_Exam\\Controllers\\TeachersController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAowEoAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAqwFMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T10:25:23.09Z"
+              "WhenOpened": "2026-09-20T10:25:23.09Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Models\\Teacher.cs",
+              "RelativeDocumentMoniker": "Practical_Exam\\Models\\Teacher.cs",
+              "ToolTip": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Models\\Teacher.cs",
+              "RelativeToolTip": "Practical_Exam\\Models\\Teacher.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwBMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T06:52:38.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TeacherDto.cs",
+              "DocumentMoniker": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Dtos\\TeacherDto.cs",
+              "RelativeDocumentMoniker": "Practical_Exam\\Dtos\\TeacherDto.cs",
+              "ToolTip": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Dtos\\TeacherDto.cs",
+              "RelativeToolTip": "Practical_Exam\\Dtos\\TeacherDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T10:29:55.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "Practical_Exam\\Controllers\\DepartmentsController.cs",
+              "ToolTip": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "Practical_Exam\\Controllers\\DepartmentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T09:46:51.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "CreateDepartmentDto.cs",
               "DocumentMoniker": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Dtos\\CreateDepartmentDto.cs",
               "RelativeDocumentMoniker": "Practical_Exam\\Dtos\\CreateDepartmentDto.cs",
@@ -171,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Practical_Exam\\Controllers\\WeatherForecastController.cs",
@@ -183,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Subject.cs",
               "DocumentMoniker": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Models\\Subject.cs",
               "RelativeDocumentMoniker": "Practical_Exam\\Models\\Subject.cs",
@@ -195,31 +246,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "AppDbCotnext.cs",
               "DocumentMoniker": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Data\\AppDbCotnext.cs",
               "RelativeDocumentMoniker": "Practical_Exam\\Data\\AppDbCotnext.cs",
               "ToolTip": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Data\\AppDbCotnext.cs",
               "RelativeToolTip": "Practical_Exam\\Data\\AppDbCotnext.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA8wBYAAABTAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA4wBYAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-16T07:13:53.172Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Teacher.cs",
-              "DocumentMoniker": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Models\\Teacher.cs",
-              "RelativeDocumentMoniker": "Practical_Exam\\Models\\Teacher.cs",
-              "ToolTip": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Models\\Teacher.cs",
-              "RelativeToolTip": "Practical_Exam\\Models\\Teacher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-16T06:52:38.485Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Models\\Student.cs",
               "RelativeDocumentMoniker": "Practical_Exam\\Models\\Student.cs",
@@ -231,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Department.cs",
               "DocumentMoniker": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Models\\Department.cs",
               "RelativeDocumentMoniker": "Practical_Exam\\Models\\Department.cs",
@@ -243,19 +282,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Enrollment.cs",
               "DocumentMoniker": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Models\\Enrollment.cs",
               "RelativeDocumentMoniker": "Practical_Exam\\Models\\Enrollment.cs",
               "ToolTip": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Models\\Enrollment.cs",
               "RelativeToolTip": "Practical_Exam\\Models\\Enrollment.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-16T06:59:25.37Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "ClassRoom.cs",
               "DocumentMoniker": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Models\\ClassRoom.cs",
               "RelativeDocumentMoniker": "Practical_Exam\\Models\\ClassRoom.cs",
@@ -267,19 +306,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "20260916073232_init.cs",
               "DocumentMoniker": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Migrations\\20260916073232_init.cs",
               "RelativeDocumentMoniker": "Practical_Exam\\Migrations\\20260916073232_init.cs",
               "ToolTip": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Migrations\\20260916073232_init.cs",
               "RelativeToolTip": "Practical_Exam\\Migrations\\20260916073232_init.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-16T07:32:32.609Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "20260916111443_init.cs",
               "DocumentMoniker": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Migrations\\20260916111443_init.cs",
               "RelativeDocumentMoniker": "Practical_Exam\\Migrations\\20260916111443_init.cs",
@@ -291,13 +329,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "20260916110548_v2.cs",
               "DocumentMoniker": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Migrations\\20260916110548_v2.cs",
               "RelativeDocumentMoniker": "Practical_Exam\\Migrations\\20260916110548_v2.cs",
               "ToolTip": "C:\\Users\\yassen.ashraf\\source\\repos\\Practical_Exam\\Practical_Exam\\Migrations\\20260916110548_v2.cs",
               "RelativeToolTip": "Practical_Exam\\Migrations\\20260916110548_v2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-16T11:05:48.756Z"
             }
