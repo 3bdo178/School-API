@@ -58,29 +58,45 @@ namespace Practical_Exam.Controllers
         public IActionResult GetTeacherById(int Id)
         {
             var teacher = _context.Teachers.FirstOrDefault(t => t.Id == Id);
-            if(teacher == null)
+            if (teacher == null)
             {
                 return NotFound();
             }
-           var result = _mapper.Map<TeacherDto>(teacher);
+            var result = _mapper.Map<TeacherDto>(teacher);
             return Ok(result);
         }
         [HttpPost]
         public IActionResult CreateTeacher(CreateTeacherDto Teacherdto)
         {
-            if(Teacherdto == null || !ModelState.IsValid)
+            if (Teacherdto == null || !ModelState.IsValid)
             {
                 return BadRequest("Enter a valid teacher.");
+            }
+            var department = _context.Departments.FirstOrDefault(d => d.Id == Teacherdto.DepartmentId);
+            if (department == null)
+            {
+                return BadRequest("Department does not exist.");
             }
             var result = _mapper.Map<Teacher>(Teacherdto);
             _context.Teachers.Add(result);
             _context.SaveChanges();
             return Created();
         }
-        //[HttpPut("{Id}")]
-        //public IActionResult UpdateTeacher(int Id, [FromBody] UpdateTeacherDto dto)
-        //{
-        //    var teacher = _context.Teachers.
-        //}
+        [HttpPut("{Id}")]
+        public IActionResult UpdateTeacher(int Id, [FromBody] UpdateTeacherDto dto)
+        {
+            var teacher = _context.Teachers.FirstOrDefault(t => t.Id == Id);
+            if (teacher == null)
+            {
+                return BadRequest("Teacher Does not Exist");
+            }
+
+            teacher = _mapper.Map<Teacher>(dto);
+            _context.Teachers.Update(teacher);
+            _context.SaveChanges();
+
+            return NoContent();
+
+        }
     }
 }

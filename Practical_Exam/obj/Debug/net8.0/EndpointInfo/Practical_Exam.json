@@ -374,6 +374,46 @@
             "description": "OK"
           }
         }
+      },
+      "put": {
+        "tags": [
+          "Teachers"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateTeacherDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateTeacherDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateTeacherDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       }
     },
     "/WeatherForecast": {
@@ -737,6 +777,44 @@
               "$ref": "#/components/schemas/Subject"
             },
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateTeacherDto": {
+        "required": [
+          "email",
+          "fullName",
+          "salary"
+        ],
+        "type": "object",
+        "properties": {
+          "fullName": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string"
+          },
+          "email": {
+            "maxLength": 150,
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          },
+          "phoneNumber": {
+            "maxLength": 20,
+            "type": "string",
+            "format": "tel",
+            "nullable": true
+          },
+          "salary": {
+            "maximum": 2147483647,
+            "minimum": 0,
+            "type": "number",
+            "format": "double"
+          },
+          "departmentId": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

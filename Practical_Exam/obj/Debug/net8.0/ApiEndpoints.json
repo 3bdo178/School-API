@@ -237,6 +237,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Practical_Exam.Controllers.TeachersController",
+    "Method": "UpdateTeacher",
+    "RelativePath": "api/Teachers/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Practical_Exam.Dtos.UpdateTeacherDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Practical_Exam.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
